@@ -1,0 +1,151 @@
+
+
+
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+   gap: 10px;
+   background-color: rgba(14, 12, 12, 0.836);
+ 
+}
+.icons{
+    color: white;
+    font-size: 30px;
+}
+.nav1{
+    display: flex;
+    padding-right: 10px;
+    gap: 5px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.intro{
+   
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(14, 12, 12, 0.836);
+    width: 100%;
+    height: 300px;
+}
+.img{
+    padding-top: 4%;
+}
+
+#about{
+    color: white;
+    padding-top: 4%;
+    width: 30%;
+}
+#about p{
+    font-size: 20px;
+}
+.per{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+header{
+    
+   
+    width: 100%;
+    background-color: rgb(159 159 154);
+    height: 500px;
+
+}
+.Resume h1{
+    color: white;
+}
+.Resume p{
+    color: white;
+    font-size: 20px;
+}
+
+.Resume{
+    width:400px;
+  height:400px;
+ 
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 45px;
+  grid-row-gap: 23px;
+  text-align: center;
+  text-justify: center;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+}
+.project{
+    background-color: rgba(14, 12, 12, 0.836);
+    color: white;
+    padding-top: 30px;
+}
+
+#pro{
+    margin-top: 0%;
+}
+.pro{
+    color: white;
+}
+.input{
+    size: 30px;
+    border-radius: 5px;
+    width: 140px;
+    
+}
+button{
+    size: 15px;
+    border-radius: 7px;
+    background-color: greenyellow;
+    width: 70px;
+    padding-bottom: 8px;
+}
+.input1{
+    background-color: rgba(167, 184, 181, 0.219);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: grid;
+    width: 340px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: rgba(60, 30, 233, 0.76);
+    color: white;
+    box-shadow: rgba(12, 9, 9, 0.637) 0px 5px 15px;
+}
+.input:hover{
+   
+    color: rgb(17, 10, 10);
+    box-shadow: rgba(12, 9, 9, 0.637) 0px 5px 15px;
+}
+.clg{
+    display: flex;
+    gap: 2px;
+    text-justify: center;
+    text-align: center;
+    margin-left: 41%;
+    color: white;
+}
